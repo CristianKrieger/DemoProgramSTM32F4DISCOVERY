@@ -56,7 +56,7 @@ In order to load and run the program, you need to do the following:
 7. Once it finishes, you can use any of the usual gdb commands like 'run' to start the program (you might need to press reset on the board in some cases).   
 
 ##About the Demo Program
-Once installed, the board should do the following:
+Once installed, the board should do the following:   
 1. Four LEDs between B1 and B2 buttons are blinking.   
 2. Press user button B1 to enable the ST MEMS sensor, move the board and observe the four LEDs blinking according to the motion direction and speed. (If you connect a
 second USB cable ‘type A to micro-B’ between PC and CN5 connector then the board
