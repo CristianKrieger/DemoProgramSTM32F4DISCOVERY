@@ -55,5 +55,12 @@ In order to load and run the program, you need to do the following:
 6. Load the program to the device by using 'load'.   
 7. Once it finishes, you can use any of the usual gdb commands like 'run' to start the program (you might need to press reset on the board in some cases).   
 
+##About the Demo Program
+Once installed, the board should do the following:
+1. Four LEDs between B1 and B2 buttons are blinking.   
+2. Press user button B1 to enable the ST MEMS sensor, move the board and observe the four LEDs blinking according to the motion direction and speed. (If you connect a
+second USB cable ‘type A to micro-B’ between PC and CN5 connector then the board
+is recognized as standard mouse and its motion will also control the PC cursor).   
+
 ##Credits
 This tutorial was based on Elia's Electronics Blog entry: http://eliaselectronics.com/stm32f4-tutorials/setting-up-the-stm32f4-arm-development-toolchain/
